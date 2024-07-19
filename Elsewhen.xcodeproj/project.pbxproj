@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43BDCD4E2C49ED2900C909A5 /* DateTimePartTaggerModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43BDCD4C2C49ED2900C909A5 /* DateTimePartTaggerModel.mlmodel */; };
+		43BDCD4F2C49ED2900C909A5 /* DateTimePartTaggerModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43BDCD4C2C49ED2900C909A5 /* DateTimePartTaggerModel.mlmodel */; };
 		5E01E2F228621E8300782A37 /* NewTimeZoneGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E01E2F128621E8300782A37 /* NewTimeZoneGroupView.swift */; };
 		5E05D0F0289479E600C46543 /* CustomTimeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E05D0EF289479E600C46543 /* CustomTimeFormat.swift */; };
 		5E05D0F128947B2200C46543 /* CustomTimeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E05D0EF289479E600C46543 /* CustomTimeFormat.swift */; };
@@ -317,6 +319,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		43BDCD4C2C49ED2900C909A5 /* DateTimePartTaggerModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DateTimePartTaggerModel.mlmodel; sourceTree = "<group>"; };
 		5E01E2F128621E8300782A37 /* NewTimeZoneGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTimeZoneGroupView.swift; sourceTree = "<group>"; };
 		5E05D0EF289479E600C46543 /* CustomTimeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimeFormat.swift; sourceTree = "<group>"; };
 		5E07E846273475E300D9350E /* rainbow@3x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rainbow@3x~ipad.png"; sourceTree = "<group>"; };
@@ -567,6 +570,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43BDCD4D2C49ED2900C909A5 /* ML Models */ = {
+			isa = PBXGroup;
+			children = (
+				43BDCD4C2C49ED2900C909A5 /* DateTimePartTaggerModel.mlmodel */,
+			);
+			path = "ML Models";
+			sourceTree = "<group>";
+		};
 		5E07E8452734740300D9350E /* Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -653,8 +664,9 @@
 				6378399B26EBF4750055A10D /* Discord Helper IntentsUI */,
 				6346AD5B26F3BF1300E406D0 /* MacElsewhen */,
 				6346AD6C26F3BF1400E406D0 /* MacElsewhenTests */,
-				6346AD7626F3BF1400E406D0 /* MacElsewhenUITests */,
 				6378398D26EBF4750055A10D /* Frameworks */,
+				43BDCD4D2C49ED2900C909A5 /* ML Models */,
+				6346AD7626F3BF1400E406D0 /* MacElsewhenUITests */,
 				5EB23B9A26E406B600203153 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1360,6 +1372,7 @@
 				63A90DD026F4295F00CACCB9 /* Bundle.swift in Sources */,
 				637839CB26ED11360055A10D /* TimeZone+ItemProvider.swift in Sources */,
 				5E5F42B827163E510022C7D1 /* Orientation.swift in Sources */,
+				43BDCD4E2C49ED2900C909A5 /* DateTimePartTaggerModel.mlmodel in Sources */,
 				63BEF696271EE275000CAC95 /* NotRepresentativeWarning.swift in Sources */,
 				63C51BA726FA32D400145662 /* FavouriteIndicator.swift in Sources */,
 				5E9BD45126EEA11900383233 /* UserDefaults.swift in Sources */,
@@ -1447,6 +1460,7 @@
 				632F38DF274B882C00F0C064 /* StatusItemTabViewController.swift in Sources */,
 				63B5EF6D2720E62900AA576E /* Selectable.swift in Sources */,
 				632F38C62748341800F0C064 /* PreferencesViewController.swift in Sources */,
+				43BDCD4F2C49ED2900C909A5 /* DateTimePartTaggerModel.mlmodel in Sources */,
 				63A90DE826F4D49E00CACCB9 /* MenuItemContents.swift in Sources */,
 				63BEF68C271EB9A1000CAC95 /* SearchBar.swift in Sources */,
 				5E48E3C328636CDE00F3613C /* FormatChoiceButton.swift in Sources */,
